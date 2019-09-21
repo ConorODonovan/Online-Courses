@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1555258306 source:c:\users\conor\dropbox\coding\c\udemy projects\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1555269806 source:f:\dropbox\dropbox\coding\c\udemy projects\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

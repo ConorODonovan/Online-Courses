@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553193346 source:c:\users\conor\dropbox\coding\c\udemy projects\areaofrectangle\main.c
+	<stdio.h>
+	<stdlib.h>
+
