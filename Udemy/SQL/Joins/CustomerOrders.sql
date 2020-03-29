@@ -29,3 +29,18 @@ VALUES 	('2016/02/10', 99.99, 1),
         ('2014/12/12', 800.67, 2),
         ('2015/01/03', 12.50, 2),
 		('1999/04/11', 450.25, 5);
+
+SELECT first_name, last_name, order_date, amount
+FROM customers
+JOIN orders
+	ON customers.id = orders.customer_id;
+    
+SELECT
+	first_name,
+    last_name,
+    SUM(amount) AS total_spent
+FROM customers
+JOIN orders
+	ON customers.id = orders.customer_id
+GROUP BY orders.customer_id
+ORDER BY total_spent DESC;
